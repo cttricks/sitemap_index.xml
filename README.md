@@ -8,9 +8,11 @@ Before I answer this, Let's understand what is `Sitemap` in simple very terms. X
 Once you upload the `sitemap_index.php` in the `root` or `public_html` directory. Each time a search engine crawler makes a request to get the updated sitemap of your webiste the script will generate the site map and return the updated sitemap. So even if you make any change on your website by creating a new page or directory the search engine will get the info of that via that XML sitemap. 
 
 If you use any other site map generator tool then you have to do it manually by creating and uploading the updated `sitemap_index.xml` file everyday for the serach console. But  this script will automaet the work as it generates the Sitemap when a search engine crawlers make reuqet to get the sitemap. Isn't this amazing 😅
+
+If you want to know more about the sitemap and sitemap format visit [sitemap.org](http://www.sitemaps.org/protocol.html)
 <br><br>
 ## 🛠 How to use this?
-Usage is pretty strait forward, simply upload the [sitemap_index.php](https://github.com/cttricks/sitemap_index.xml/blob/master/sitemap_index.php) in the `root` or `public_html` directory. Now open this file and make these changes
+Usage is pretty strait forward, simply upload the [sitemap_index.php](https://github.com/cttricks/sitemap_index.xml/blob/main/sitemap_index.php) in the `root` or `public_html` directory. Now open this file and make these changes
 
 ```PHP
 $root = "https://yourdomain.com";
