@@ -5,15 +5,15 @@ $path = "./";
 $root = "https://yourdomain.com";
 
 $skip_dir = array(
-	"_data", "_trash", "a", "ajax", "fonts", "page", "user_avatar", "-cards", "_trash", "js", "css", ".well-known", "cgi-bin"
+	".well-known", "cgi-bin"
 );
 
 $skip_files = array(
-	"update.php", "update2.php", "_header.php", "_home.php", "_meta.php", "generate-sitemap.php", "affiliate_redirect.php", "sitemap_index.php"
+	"sitemap_index.php", "test_codes.php"
 );
 
 $skip_file_extensions = array(
-	"css", "js", "html", "xml", "zip", "txt"
+	"html", "xml", "zip", "txt"
 );
 
 /*Try not to make any change in below code*/
